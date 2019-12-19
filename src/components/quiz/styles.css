@@ -1,0 +1,136 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(245,116,24);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  border-radius: 15px;
+}
+body {
+  font-size: 1.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: black;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.options {
+  cursor: pointer;
+  border: 2px solid rgb(245,116,24);
+  padding: 10px;
+}
+
+.selected {
+  background: linear-gradient(to right,rgb(245,116,24), black 35%, black 65%, rgb(245,116,24)) !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.message {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cadre {
+  background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576694763-f57418-copie.png);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 17px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2vh;
+}
+
+.bouton {
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.quest {
+  margin-top: 0;
+  font-size: 3vh;
+}
+
+.orange {
+  color: rgb(245,116,24);
+  border: 2px solid rgb(245,116,24);
+}
+
+.white {
+  color: white;
+  border: 2px solid rgb(245,116,24);
+}
+
+
+@media screen and (max-width:420px) {
+  .mob-0{display: none;}
+  .mob-1{width: 8.33%;}
+  .mob-2{width: 16.66%;}
+  .mob-3{width: 25%;}
+  .mob-4{width: 33.33%;}
+  .mob-5{width: 41.66%;}
+  .mob-6{width: 50%;}
+  .mob-7{width: 58.33%;}
+  .mob-8{width: 66.66%;}
+  .mob-9{width: 75%;}
+  .mob-10{width: 83.33%;}
+  .mob-11{width: 91.66%;}
+  .mob-12{width: 100%;}
+
+}
+
+@media screen and (min-width:421px) and (max-width:1024px) {
+  .tab-0{display: none;}
+  .tab-1{width: 8.33%;}
+  .tab-2{width: 16.66%;}
+  .tab-3{width: 25%;}
+  .tab-4{width: 33.33%;}
+  .tab-5{width: 41.66%;}
+  .tab-6{width: 50%;}
+  .tab-7{width: 58.33%;}
+  .tab-8{width: 66.66%;}
+  .tab-9{width: 75%;}
+  .tab-10{width: 83.33%;}
+  .tab-11{width: 91.66%;}
+  .tab-12{width: 100%;}
+
+  .cadre {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+}
+
+@media screen and (min-width:1025px) {
+  .dsk-0{display: none;}
+  .dsk-1{width: 8.33%;}
+  .dsk-2{width: 16.66%;}
+  .dsk-3{width: 25%;}
+  .dsk-4{width: 33.33%;}
+  .dsk-5{width: 41.66%;}
+  .dsk-6{width: 50%;}
+  .dsk-7{width: 58.33%;}
+  .dsk-8{width: 66.66%;}
+  .dsk-9{width: 75%;}
+  .dsk-10{width: 83.33%;}
+  .dsk-11{width: 91.66%;}
+  .dsk-12{width: 100%;}
+
+  .cadre {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}

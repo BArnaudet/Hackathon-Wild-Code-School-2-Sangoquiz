@@ -1,0 +1,92 @@
+    .titre {
+        font-size: 8vh;
+        font-family: 'Saiyan-Sans';
+        color: black;
+        margin: 0;
+    }
+
+    .start {
+        background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576678826-f57418.png);
+        font-size: 5vh;
+        border-radius: 20px;
+        border: black 2px solid;
+        margin-top: 120%;
+    }
+
+@media screen and (max-width:420px) {
+    .mob-0{display: none;}
+    .mob-1{width: 8.33%;}
+    .mob-2{width: 16.66%;}
+    .mob-3{width: 25%;}
+    .mob-4{width: 33.33%;}
+    .mob-5{width: 41.66%;}
+    .mob-6{width: 50%;}
+    .mob-7{width: 58.33%;}
+    .mob-8{width: 66.66%;}
+    .mob-9{width: 75%;}
+    .mob-10{width: 83.33%;}
+    .mob-11{width: 91.66%;}
+    .mob-12{width: 100%;}
+
+    * {
+        background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576675785-sangoku-600x-1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (min-width:421px) and (max-width:1024px) {
+    .tab-0{display: none;}
+    .tab-1{width: 8.33%;}
+    .tab-2{width: 16.66%;}
+    .tab-3{width: 25%;}
+    .tab-4{width: 33.33%;}
+    .tab-5{width: 41.66%;}
+    .tab-6{width: 50%;}
+    .tab-7{width: 58.33%;}
+    .tab-8{width: 66.66%;}
+    .tab-9{width: 75%;}
+    .tab-10{width: 83.33%;}
+    .tab-11{width: 91.66%;}
+    .tab-12{width: 100%;}
+
+    * {
+        background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576675857-sangoku-600x-2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .start {
+        margin-top: 90%;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .dsk-0{display: none;}
+    .dsk-1{width: 8.33%;}
+    .dsk-2{width: 16.66%;}
+    .dsk-3{width: 25%;}
+    .dsk-4{width: 33.33%;}
+    .dsk-5{width: 41.66%;}
+    .dsk-6{width: 50%;}
+    .dsk-7{width: 58.33%;}
+    .dsk-8{width: 66.66%;}
+    .dsk-9{width: 75%;}
+    .dsk-10{width: 83.33%;}
+    .dsk-11{width: 91.66%;}
+    .dsk-12{width: 100%;}
+
+    * {
+        background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576674545-sangoku-1080p.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .titre {
+        color: rgb(245,116,24);
+    }
+
+    .start {
+        margin-top: 37%;
+    }
+}
