@@ -97,6 +97,10 @@ ul {
   height: 20vh;
 }
 
+.tot {
+  font-size: 1.7vh;
+}
+
 
 @media screen and (max-width:420px) {
   .mob-0{display: none;}

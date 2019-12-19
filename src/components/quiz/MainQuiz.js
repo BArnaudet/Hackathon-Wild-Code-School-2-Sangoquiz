@@ -79,7 +79,7 @@ class MainQuiz extends React.Component {
     if (isEnd) {
       return (
         <div className="mob-11 tab-10 dsk-7 result message">
-          <h3 className="cadre orange">Vous avez récupéré {this.state.score} boule(s) de cristal sur 7 ! </h3>
+          <h3 className="cadre orange tot">Vous avez récupéré {this.state.score} boule(s) de cristal sur 7 ! </h3>
           {/*  <p className="cadre orange">
             Les réponses correctes étaient:
             <ul className="dsk-7 cadre orange">
