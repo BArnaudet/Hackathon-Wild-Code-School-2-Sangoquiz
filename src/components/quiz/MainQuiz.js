@@ -57,6 +57,15 @@ class MainQuiz extends React.Component {
     this.setState({ myAnswer: answer, disabled: false });
   };
   finishHandler = () => {
+
+    const { myAnswer, answer, score } = this.state;
+
+    if (myAnswer === answer) {
+      this.setState({
+        score: score + 1
+      });
+    }
+    
     if (this.state.currentQuestion === quizData.length - 1) {
       this.setState({
         isEnd: true

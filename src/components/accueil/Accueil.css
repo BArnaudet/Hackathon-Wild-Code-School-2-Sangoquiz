@@ -13,6 +13,10 @@
         margin-top: 120%;
     }
 
+    .lien {
+        background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576678826-f57418.png)
+    }
+
 @media screen and (max-width:420px) {
     .mob-0{display: none;}
     .mob-1{width: 8.33%;}
