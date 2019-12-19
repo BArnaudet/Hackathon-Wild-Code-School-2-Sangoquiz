@@ -123,7 +123,7 @@ class MainQuiz extends React.Component {
             </button>
           )}
           <br></br>
-          <iframe className="dsk-2 gif" src="https://giphy.com/embed/MXR9QEVRdvwKgFTVi9"></iframe>
+          <iframe className="mob-4 tab-6dsk-2 cadre orange gif" src="https://giphy.com/embed/MXR9QEVRdvwKgFTVi9"></iframe>
         </div>
       );
     }
