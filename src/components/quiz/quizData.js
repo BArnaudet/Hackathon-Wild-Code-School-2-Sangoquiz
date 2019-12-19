@@ -33,7 +33,7 @@ export const quizData = [
   {
     id: 5,
     question: "6. Trouvez l'intrus !",
-    options: ["A - Goku", "B - Freezer", "C - Gohan ", "D - Vegata"],
+    options: ["A - Goku", "B - Freezer", "C - Gohan ", "D - Vegeta"],
     answer: "B - Freezer"
   },
   {

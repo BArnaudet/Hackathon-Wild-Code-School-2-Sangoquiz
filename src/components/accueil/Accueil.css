@@ -8,6 +8,7 @@
     .start {
         background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576678826-f57418.png);
         font-size: 5vh;
+        text-align: center;
         border-radius: 20px;
         border: black 2px solid;
         margin-top: 120%;
