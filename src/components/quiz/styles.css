@@ -74,6 +74,11 @@ ul {
   border: 2px solid rgb(245,116,24);
 }
 
+.gif {
+  border: none;
+  height: 20vh;
+}
+
 
 @media screen and (max-width:420px) {
   .mob-0{display: none;}

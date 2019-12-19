@@ -65,7 +65,7 @@ class MainQuiz extends React.Component {
         score: score + 1
       });
     }
-    
+
     if (this.state.currentQuestion === quizData.length - 1) {
       this.setState({
         isEnd: true
@@ -122,6 +122,8 @@ class MainQuiz extends React.Component {
               Fini
             </button>
           )}
+          <br></br>
+          <iframe className="dsk-2 gif" src="https://giphy.com/embed/MXR9QEVRdvwKgFTVi9"></iframe>
         </div>
       );
     }
