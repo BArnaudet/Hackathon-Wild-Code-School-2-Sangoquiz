@@ -8,7 +8,8 @@ class MainQuiz extends React.Component {
     options: [],
     score: 0,
     disabled: true,
-    isEnd: false
+    isEnd: false,
+    isFinish: false
   };
 
   loadQuizData = () => {
@@ -78,8 +79,8 @@ class MainQuiz extends React.Component {
     if (isEnd) {
       return (
         <div className="mob-11 tab-10 dsk-7 result message">
-          <h3 className="cadre orange">Vous avez récupéré {this.state.score} boule(s) de cristal ! </h3>
-          <p className="cadre orange">
+          <h3 className="cadre orange">Vous avez récupéré {this.state.score} boule(s) de cristal sur 7 ! </h3>
+          {/*  <p className="cadre orange">
             Les réponses correctes étaient:
             <ul className="dsk-7 cadre orange">
               {quizData.map((item, index) => (
@@ -88,7 +89,16 @@ class MainQuiz extends React.Component {
                 </li>
               ))}
             </ul>
-          </p>
+          </p> */}
+          {this.state.score === 0 && <iframe src="https://giphy.com/embed/nuwtayd9rKF44" className="cadre orange final"></iframe>}
+          {this.state.score === 1 && <iframe src="https://giphy.com/embed/nuwtayd9rKF44" className="cadre orange final"></iframe>}
+          {this.state.score === 2 && <iframe src="https://giphy.com/embed/VpOEyL2bhLZ7y" className="cadre orange final"></iframe>}
+          {this.state.score === 3 && <iframe src="https://giphy.com/embed/VpOEyL2bhLZ7y" className="cadre orange final"></iframe>}
+          {this.state.score === 4 && <iframe src="https://giphy.com/embed/do0xfdH2Ssh56" className="cadre orange final"></iframe>}
+          {this.state.score === 5 && <iframe src="https://giphy.com/embed/do0xfdH2Ssh56" className="cadre orange final"></iframe>}
+          {this.state.score === 6 && <iframe src="https://giphy.com/embed/CeWcJJsIUyUYE" className="cadre orange final"></iframe>}
+          {this.state.score === 7 && <iframe src="https://giphy.com/embed/poPz9jfVYTbDW" className="cadre orange final"></iframe>}
+
         </div>
       );
     } else {
@@ -123,7 +133,9 @@ class MainQuiz extends React.Component {
             </button>
           )}
           <br></br>
-          <iframe className="mob-4 tab-6dsk-2 cadre orange gif" src="https://giphy.com/embed/MXR9QEVRdvwKgFTVi9"></iframe>
+          <div className="overf cadre orange">
+            <iframe className="gif" src="https://giphy.com/embed/MXR9QEVRdvwKgFTVi9"></iframe>
+          </div>
         </div>
       );
     }
