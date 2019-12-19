@@ -17,6 +17,7 @@
     .lien {
         background-image: url(https://image.noelshack.com/fichiers/2019/51/3/1576678826-f57418.png);
         color: black;
+        text-align: center;
     }
 
 @media screen and (max-width:420px) {
